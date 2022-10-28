@@ -2,11 +2,25 @@
 //
 import 'User.dart';
 // import 'dart:io';
+import'Product.dart';
 import'Customer.dart';
 /// Lists
 List<UserData>users=[
   Customer(),
 ];
+
+List<Product>products=[
+  Product(
+    productId: 001,
+    productName: "Product_one",
+    description: "this is a description of product_one",
+    availableQuantity: 20,
+    productPrice: 30.5,
+    supplierName: "Mohamed"
+   ),
+
+];
+
 main(){
   // start:while(true) {
    Customer().customerRegister();
