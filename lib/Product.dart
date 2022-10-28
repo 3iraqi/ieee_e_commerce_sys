@@ -2,7 +2,7 @@ class Product{
 
      int ? productId ;
      String ? productName ;
-     String ? describtion ;
+     String ? description ;
      double ? productPrice ;
      int ? availableQuantity ;
 
