@@ -16,24 +16,24 @@ class Administrator extends UserData{
 
   }
 
-  adminRegister(){
-    print('\t\t\t--Admin Register');
-    stdout.write("user Id : ");         String userID=stdin.readLineSync()!;
-    stdout.write("\nPassword : ");      String password=stdin.readLineSync()!;
-    stdout.write("\n loginStatus : ");  String loginStatus=stdin.readLineSync()!;
-    stdout.write("\n adminName : ");    String adminName=stdin.readLineSync()!;
-    stdout.write("\n email : ");        String email=stdin.readLineSync()!;
-    users.add( Administrator(
-      userID:userID ,
-      password:password ,
-      loginStatus:loginStatus ,
-      adminName:adminName ,
-      email: email,
-    )
-    );
-    print("user ${users.length+1} \n User Name=$userID \npass=$password\n loginState is $loginStatus \n \t\t New Admin Has been Added to system");
-
-  }
+  // adminRegister(){
+  //   print('\t\t\t--Admin Register');
+  //   stdout.write("user Id : ");         String userID=stdin.readLineSync()!;
+  //   stdout.write("\nPassword : ");      String password=stdin.readLineSync()!;
+  //   stdout.write("\n loginStatus : ");  String loginStatus=stdin.readLineSync()!;
+  //   stdout.write("\n adminName : ");    String adminName=stdin.readLineSync()!;
+  //   stdout.write("\n email : ");        String email=stdin.readLineSync()!;
+  //   users.add( Administrator(
+  //     userID:userID ,
+  //     password:password ,
+  //     loginStatus:loginStatus ,
+  //     adminName:adminName ,
+  //     email: email,
+  //   )
+  //   );
+  //   print("user ${users.length+1} \n User Name=$userID \npass=$password\n loginState is $loginStatus \n \t\t New Admin Has been Added to system");
+  //
+  // }
 
 
 }

@@ -1,4 +1,6 @@
-class Product{
+import 'Category.dart';
+
+class Product {
 
      int ?    productId ;
      String ? productName ;
@@ -6,7 +8,7 @@ class Product{
      double ? productPrice ;
      String ? supplierName ;
      int ?    availableQuantity ;
-     String? categoryId;
+
 
      Product({
        this.productId,
@@ -14,8 +16,11 @@ class Product{
        this.description,
        this.productPrice,
        this.supplierName,
-       this.availableQuantity
+       this.availableQuantity,
+
      }
      );
+
+
 
 }

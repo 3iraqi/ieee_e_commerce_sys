@@ -1,7 +1,7 @@
-import 'package:ieee_e_commerce_sys/ShoppingCart.dart';
-import 'ieee_e_commerce_sys.dart';
+import 'ShoppingCart.dart';
+// import 'ieee_e_commerce_sys.dart';
 import 'User.dart';
-import 'dart:io';
+// import 'dart:io';
 import 'Orders.dart';
 
 class Customer extends UserData {
@@ -41,34 +41,34 @@ class Customer extends UserData {
     this.shippingInfo,
   });
 
-  customerRegister() {
-    print('\t\t\t--Register');
-    stdout.write("user Id : ");    String userID = stdin.readLineSync()!;
-    stdout.write("\nPassword : ");    String password = stdin.readLineSync()!;
-    stdout.write("\n loginStatus : ");    String loginStatus = stdin.readLineSync()!;
-    stdout.write("\n customerName : ");   String customerName = stdin.readLineSync()!;
-    stdout.write("\n email : ");
-    String email = stdin.readLineSync()!;
-    stdout.write("\n address : ");
-    String address = stdin.readLineSync()!;
-    stdout.write("\n creditCardInfo : ");
-    String creditCardInfo = stdin.readLineSync()!;
-    stdout.write("\n shippingInfo : ");
-    String shippingInfo = stdin.readLineSync()!;
-
- users.add(
-        Customer(
-      userID: userID,
-      password: password,
-      loginStatus: loginStatus,
-      customerName: customerName,
-      email: email,
-      address: address,
-      creditCardInfo: creditCardInfo,
-      shippingInfo: shippingInfo,
-    ));
-    print("user ${users.length + 1} \n User Name=$userID \npass=$password\n loginState is $loginStatus \n \t\t New Customer Has been Added to system");
-  }
+ //  customerRegister() {
+ //    print('\t\t\t--Register');
+ //    stdout.write("user Id : ");    String userID = stdin.readLineSync()!;
+ //    stdout.write("\nPassword : ");    String password = stdin.readLineSync()!;
+ //    stdout.write("\n loginStatus : ");    String loginStatus = stdin.readLineSync()!;
+ //    stdout.write("\n customerName : ");   String customerName = stdin.readLineSync()!;
+ //    stdout.write("\n email : ");
+ //    String email = stdin.readLineSync()!;
+ //    stdout.write("\n address : ");
+ //    String address = stdin.readLineSync()!;
+ //    stdout.write("\n creditCardInfo : ");
+ //    String creditCardInfo = stdin.readLineSync()!;
+ //    stdout.write("\n shippingInfo : ");
+ //    String shippingInfo = stdin.readLineSync()!;
+ //
+ // users.add(
+ //        Customer(
+ //      userID: userID,
+ //      password: password,
+ //      loginStatus: loginStatus,
+ //      customerName: customerName,
+ //      email: email,
+ //      address: address,
+ //      creditCardInfo: creditCardInfo,
+ //      shippingInfo: shippingInfo,
+ //    ));
+ //    print("user ${users.length + 1} \n User Name=$userID \npass=$password\n loginState is $loginStatus \n \t\t New Customer Has been Added to system");
+ //  }
 
   login() {}
   updateProfile() {  }
